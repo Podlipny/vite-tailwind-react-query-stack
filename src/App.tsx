@@ -8,7 +8,8 @@ function App() {
   const onClick = useCallback(() => setCount((count) => count + 1), [])
 
   return (
-    <div className='App'>
+    <div className='App flex flex-col items-center'>
+      <h1 className='text-6xl font-bold underline'>Hello world!</h1>
       <div>
         <a href='https://vitejs.dev' target='_blank' rel='noreferrer'>
           <img src='/vite.svg' className='logo' alt='Vite logo' />
@@ -19,7 +20,9 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className='card'>
-        <button type='button' onClick={onClick}>count is {count}</button>
+        <button type='button' onClick={onClick}>
+          count is {count}
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

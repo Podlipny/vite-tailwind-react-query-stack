@@ -31,7 +31,11 @@
     "sourceMap": true,
     "incremental": true,
   },
-  "include": ["src"],
+  "include": [
+    "./src",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
   "paths": {
     "components": ["/components/*"],
     "enums": ["/enums/*"],

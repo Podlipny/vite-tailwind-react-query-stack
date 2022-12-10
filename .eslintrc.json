@@ -5,6 +5,13 @@
     "@podlipny/eslint-config/base-typescript",
     "@podlipny/eslint-config/perf-react-jsx"
   ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+      }
+    }
+  },
   "rules": {
     "@typescript-eslint/no-use-before-define": ["off"],
     "no-console": "warn"
