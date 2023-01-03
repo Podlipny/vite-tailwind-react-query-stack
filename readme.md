@@ -1,6 +1,6 @@
 # Vite.js, Typescript, Tailwind and React-Query stack
 
-TBD
+Boilerplate tech stack composed on Vite.js, Typescript, Tailwind and React-Query stack
 
 ## How to run
  - `yarn dev` - for development
@@ -13,7 +13,7 @@ TBD
 ## Docker
 
 **For development**
-to build image: `docker build -t [any name] .`
+to build image: `docker build -t [name of the image] .`
 to run image `docker run -it --rm -p 4001:4000 --name [name of the container] [name of the image]`
 
 to run image with mounted local volume for Hot Module Reload
@@ -21,4 +21,4 @@ to run image with mounted local volume for Hot Module Reload
 
 **For production preview**
 to build image: `docker build -t [name of image] -f dockerfile.preview .`
-to run image `docker run -it --rm -p 8080:8080 --name [name of the container] [name of the image]`
+to run image `docker run -it --rm -p 4200:4200 --name [name of the container] [name of the image]`
